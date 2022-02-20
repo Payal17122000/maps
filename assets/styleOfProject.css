@@ -1,0 +1,109 @@
+@import url(https://fonts.google.com/specimen/Nunito+Sans);
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container:nth-child(1) {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+
+button {
+  outline: none;
+  border: 0;
+  background: transparent;
+}
+
+.toggle {
+  font-size: 20px;
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+.form-control {
+  width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 1px 30px;
+  outline: 0;
+  border: 0;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.form-control i {
+  position: absolute;
+  cursor: pointer;
+  padding-top: 0px;
+}
+
+.dropDownCon {
+  width: 200px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.dropDown {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: white;
+}
+
+.dropDown p {
+  letter-spacing: 00.5px;
+  margin-bottom: 5px;
+}
+
+.drop {
+  position: absolute;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  top: 3rem;
+  padding: 10px 14px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.drop p {
+  margin: 1px 0;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1300px;
+  }
+}
