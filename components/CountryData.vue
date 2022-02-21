@@ -29,8 +29,6 @@ export default {
   async created() {
     const res = await this.$axios.$get(this.url)
     this.countryInfo = res
-    console.log(this.countryInfo)
-    console.log(this.countryInfo[0].name)
   },
 }
 </script>
