@@ -12,7 +12,7 @@ body {
   font-family: 'Nunito Sans', sans-serif;
 }
 
-.container {
+.c1 {
   margin-left: 0;
   margin-right: 0;
   padding: 10px;
@@ -20,7 +20,7 @@ body {
   justify-content: space-between;
 }
 
-.container:nth-child(1) {
+.c1:nth-child(1) {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   background-color: white;
 }
@@ -37,7 +37,7 @@ button {
   padding-right: 5px;
 }
 
-.form-control {
+.form-c1 {
   width: 400px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   position: relative;
@@ -46,7 +46,7 @@ button {
   margin-top: 20px;
 }
 
-.form-control input {
+.form-c1 input {
   width: 100%;
   padding: 1px 30px;
   outline: 0;
@@ -55,19 +55,19 @@ button {
   letter-spacing: 0.5px;
 }
 
-.form-control i {
+.form-c1 i {
   position: absolute;
   cursor: pointer;
   padding-top: 0px;
 }
 
-.dropDownCon {
+.drop1 {
   width: 200px;
   position: relative;
   margin-top: 20px;
 }
 
-.dropDown {
+.drop2 {
   width: 100%;
   padding: 5px;
   border-radius: 5px;
@@ -79,12 +79,12 @@ button {
   background-color: white;
 }
 
-.dropDown p {
+.drop2 p {
   letter-spacing: 00.5px;
   margin-bottom: 5px;
 }
 
-.drop {
+.drop3 {
   position: absolute;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   top: 3rem;
@@ -94,7 +94,7 @@ button {
   background-color: white;
 }
 
-.drop p {
+.drop3 p {
   margin: 1px 0;
 }
 
@@ -104,6 +104,37 @@ button {
   .container-md,
   .container-lg,
   .container-xl {
-    max-width: 1300px;
+    max-width: 1500px;
   }
+}
+
+.countries {
+  padding: 30px;
+  display: grid;
+}
+
+.country {
+  min-height: 350px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.country-img {
+  height: 250px;
+}
+
+.country-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.countryinfo {
+  padding: 20px 17px;
+}
+
+.countryinfo h5 {
+  font-size: 20px;
+  letter-spacing: 1px;
 }
