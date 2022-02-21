@@ -6,7 +6,7 @@
     </div>
     <div class="container">
       <div class="form-control">
-        <i><fa icon="search" /></i>
+        <!-- <i><fa icon="search" /></i> -->
         <input type="text" placeholder="Search For Country..." />
       </div>
       <div class="dropDownCon">
