@@ -98,16 +98,6 @@ button {
   margin: 1px 0;
 }
 
-@media (min-width: 1200px) {
-  .container,
-  .container-sm,
-  .container-md,
-  .container-lg,
-  .container-xl {
-    max-width: 1500px;
-  }
-}
-
 .countries {
   padding: 30px;
   display: grid;
