@@ -128,3 +128,29 @@ button {
   font-size: 20px;
   letter-spacing: 1px;
 }
+
+.forb {
+  padding: 10px;
+  font-size: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin: 30px 30px;
+}
+
+.imagebox {
+  margin: 200px 300px;
+  height: 300px;
+}
+
+.name1 {
+  margin-top: 200px;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1500px;
+  }
+}

@@ -27,5 +27,16 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      countryInfo: [],
+      url: 'https://restcountries.com/v2/all',
+    }
+  },
+  async created() {
+    const res = await this.$axios.$get(this.url)
+    this.countryInfo = res
+  },
+}
 </script>
