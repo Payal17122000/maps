@@ -167,12 +167,13 @@ button {
 
 .imagebox {
   margin: 100px 250px;
-  height: 500px;
+  height: 400px;
+  width: 500px;
 }
 
 .name1 {
   margin-top: 100px;
-  padding-left: 300px;
+  padding-left: 3 00px;
 }
 
 @media (min-width: 1200px) {
