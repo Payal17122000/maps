@@ -1,9 +1,4 @@
 @import url(https://fonts.google.com/specimen/Nunito+Sans);
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
 
 body {
   width: 100%;
@@ -68,6 +63,7 @@ button {
   position: relative;
   margin-top: 20px;
   margin-left: 38px;
+  margin-right: 50px;
 }
 
 .drop2 {
@@ -101,6 +97,12 @@ button {
   margin: 1px 0;
 }
 
+.s1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+
 .countries {
   padding: 40px;
   display: grid;
@@ -124,12 +126,22 @@ button {
 }
 
 .countryinfo {
-  padding: 20px 17px;
+  padding: 20px 25px;
 }
 
 .countryinfo h5 {
   font-size: 20px;
   letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.countryinfo p {
+  margin-bottom: 0;
+  padding-top: 5px;
+}
+
+.countryinfo strong {
+  font-weight: 560;
 }
 
 .forb {
@@ -146,14 +158,4 @@ button {
 
 .name1 {
   margin-top: 200px;
-}
-
-@media (min-width: 1200px) {
-  .container,
-  .container-sm,
-  .container-md,
-  .container-lg,
-  .container-xl {
-    max-width: 2000px;
-  }
 }

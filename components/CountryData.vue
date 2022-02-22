@@ -1,5 +1,5 @@
 <template>
-  <div style="display: flex; flex-wrap: wrap; margin-left: 50px">
+  <div class="s1">
     <div v-for="country in countryInfo" :key="country" class="countries">
       <router-link
         style="color: black"
