@@ -1,67 +1,51 @@
 <template>
-  <div class="box">
+  <div>
     <button class="forb" @click="backToHome">
-      <!-- <fa icon="back" /> -->
-      back
+      <i style="padding-right: 15px"> <fa icon="arrow-left-long" /></i>
+      Back
     </button>
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-md-6">
         <img class="imagebox" :src="countryInfo[0].flags.png" alt="not found" />
       </div>
-      <div class="col-lg-6 name1">
+      <div class="col-md-6 name1">
         <h2>
           <b>{{ countryInfo[0].name }}</b>
         </h2>
         <div class="row">
           <div class="col-lg-6">
-            <p class="d-inline">
-              <strong> Name:</strong> {{ countryInfo[0].nativeName }}
-            </p>
-            <br />
-            <p class="d-inline">
-              <strong>Population:</strong> {{ countryInfo[0].population }}
-            </p>
-            <br />
-            <p class="d-inline">
-              <strong>Region:</strong> {{ countryInfo[0].region }}
-            </p>
-            <br />
-            <p class="d-inline">
-              <strong>Sub Region:</strong> {{ countryInfo[0].subregion }}
-            </p>
-            <br />
-            <p class="d-inline">
-              <strong>Capital:</strong> {{ countryInfo[0].capital }}
-            </p>
+            <p><strong>Native Name:</strong> {{ countryInfo[0].nativeName }}</p>
+
+            <p><strong>Population:</strong> {{ countryInfo[0].population }}</p>
+
+            <p><strong>Region:</strong> {{ countryInfo[0].region }}</p>
+
+            <p><strong>Sub Region:</strong> {{ countryInfo[0].subregion }}</p>
+
+            <p><strong>Capital:</strong> {{ countryInfo[0].capital }}</p>
+            <br /><br />
           </div>
           <div class="col-lg-6">
-            <p class="d-inline">
+            <p>
               <strong>Top Level Domain:</strong>
               {{ countryInfo[0].topLevelDomain[0] }}
             </p>
-            <br />
-            <p class="d-inline">
+            <p>
               <strong>Currencies:</strong>
               {{ countryInfo[0].currencies[0].name }}
             </p>
-            <br />
-            <p class="d-inline">
+            <p>
               <strong>Languages:</strong>
               {{ countryInfo[0].languages[0].name }}
             </p>
           </div>
         </div>
-        <br />
-        <br />
-        <strong class="d-inline">Border Countries:</strong>
+        <br /><br />
+        <strong>Border Countries:</strong>
         <button
           v-for="countryName in countryInfo[0].borders"
           :key="countryName"
-          style="
-            box-shadow: 0 0 5px rgb(0 0 0 / 30%);
-            padding: 5px 25px;
-            margin: 5px;
-          "
+          class="b-s"
         >
           {{ countryName }}
         </button>

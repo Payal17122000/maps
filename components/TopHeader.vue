@@ -6,7 +6,7 @@
     </div>
     <div class="container c1">
       <div class="form-c1">
-        <!-- <i><fa icon="search" /></i> -->
+        <i><fa class="search-icon" icon="magnifying-glass" /></i>
         <input type="text" placeholder="Search For Country..." />
       </div>
       <div class="drop1">
