@@ -15,8 +15,9 @@ body {
 .c1 {
   margin-left: 0;
   margin-right: 0;
-  padding: 10px;
+  padding: 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -44,11 +45,12 @@ button {
   border-radius: 5px;
   overflow: hidden;
   margin-top: 20px;
+  margin-left: 45px;
 }
 
 .form-c1 input {
   width: 100%;
-  padding: 1px 30px;
+  padding: 12px 30px;
   outline: 0;
   border: 0;
   font-size: 15px;
@@ -65,6 +67,7 @@ button {
   width: 200px;
   position: relative;
   margin-top: 20px;
+  margin-left: 38px;
 }
 
 .drop2 {
@@ -99,20 +102,20 @@ button {
 }
 
 .countries {
-  padding: 30px;
+  padding: 40px;
   display: grid;
 }
 
 .country {
-  min-height: 350px;
+  min-height: 400px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  width: 300px;
+  width: 370px;
   border-radius: 5px;
   overflow: hidden;
 }
 
 .country-img {
-  height: 250px;
+  height: 200px;
 }
 
 .country-img img {
@@ -151,6 +154,6 @@ button {
   .container-md,
   .container-lg,
   .container-xl {
-    max-width: 1500px;
+    max-width: 2000px;
   }
 }
