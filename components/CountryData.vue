@@ -1,5 +1,5 @@
 <template>
-  <div style="display: flex; flex-wrap: wrap; margin-right: 200px">
+  <div style="display: flex; flex-wrap: wrap; margin-left: 50px">
     <div v-for="country in countryInfo" :key="country" class="countries">
       <div class="country">
         <div class="country-img">
